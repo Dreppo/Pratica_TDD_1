@@ -3,6 +3,7 @@ from django.urls import reverse
 from .forms import LivroForm
 from .models import LivroModel
 
+
 def index(request):
     if request.method == 'GET':
         return render(request, "index.html")
