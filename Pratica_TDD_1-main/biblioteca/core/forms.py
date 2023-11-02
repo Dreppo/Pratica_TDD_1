@@ -60,7 +60,7 @@ class LivroForm(forms.ModelForm):
             'editora': {
                 'required': ("Informe a editora do livro."),
             },
-            'autor': {
+             'autor': {
                 'required': ("Informe o autor do livro."),
             },
             'isbn': {
@@ -69,7 +69,7 @@ class LivroForm(forms.ModelForm):
             'paginas': {
                 'required': ("Informe o número de páginas do livro."),
             },
-            'ano':{
+            'ano': {
                 'required': ("Informe o ano de publicação do livro."),
             },
         }
