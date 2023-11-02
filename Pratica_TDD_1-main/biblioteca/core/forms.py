@@ -4,14 +4,6 @@ from core.models import LivroModel
 from core.data import ano_atual
 
 
-
-
-
-
-
-
-
-
 def validate_title(value):
     if len(value) < 3:
         raise ValidationError('O nome do livro deve ter pelo menos 3 caracteres')
